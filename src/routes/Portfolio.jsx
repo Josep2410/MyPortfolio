@@ -34,7 +34,7 @@ export default function Portfolio() {
         <InformationalText />
         <div className='btnContainer'>
           <Button text="GitHub Repo" link="https://github.com/Josep2410/My-Portfolio"/>
-          <Button text="Live Site" link=""/>
+          <Button text="Live Site" link="https://josephmorenoportfolio.netlify.app/"/>
         </div>
       </section>
       <section className='imgContainer portfolioImgContainer'>
