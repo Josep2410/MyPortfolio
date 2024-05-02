@@ -8,7 +8,7 @@
 }
 
 .homeSection::before{
-  background-image: url("../../../../public/portfolio/productivity-LG.jpg");
+  background-image: url("/portfolio/productivity-LG.jpg");
   filter: brightness(.60);
 }
 
