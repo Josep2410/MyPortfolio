@@ -33,7 +33,7 @@ export default function Portfolio() {
       <section className='childrenContainer portfolioContainer'>
         <InformationalText />
         <div className='btnContainer'>
-          <Button text="GitHub Repo" link="https://github.com/Josep2410/My-Portfolio"/>
+          <Button text="GitHub Repo" link="https://github.com/Josep2410/MyPortfolio"/>
           <Button text="Live Site" link="https://josephmorenoportfolio.netlify.app/"/>
         </div>
       </section>
