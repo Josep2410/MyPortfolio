@@ -1,0 +1,31 @@
+.sideMenu{
+  background-color: var(--mocha);
+}
+
+.hamburger-svg{
+  color : var(--cream);
+  height : 32px;
+  width: 32px;
+}
+
+.hamburger-svg:hover{
+  cursor: pointer;
+}
+
+.links{
+  display : flex;
+  flex-direction: column;
+}
+
+.links a{
+  color : var(--cream);
+  font-size: 1.5rem;
+  padding : 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition : .8s;
+}
+
+.links a:hover{
+  transform: scale(1.15);
+}

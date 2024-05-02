@@ -1,0 +1,111 @@
+/* EXCLUSIVE AboutSection.jsx STYLING */
+
+.aboutSection{
+  padding : 65px 40px;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutSection::before{
+  background-image: url("portfolio/atWork-LG.jpg");
+  filter: brightness(.50);
+}
+
+.aboutSection h1{
+  width : 650px;
+  font-size: 3rem;
+}
+
+.aboutSection .info{
+  position : relative;
+  text-align: left;
+  color : var(--cream);
+  width : 725px;
+  font-size: 1.9rem;
+  padding : 0 10px;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height : 80dvh;
+}
+.info li{
+  margin : 5px;
+  list-style-type: square;
+}
+
+.displayIconsContainer, .moreIconsContainer{
+  display : flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding : 0px 2px;
+  margin : 0px 0 ;
+}
+
+.displayIconsContainer span , 
+.moreIconsContainer span{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  padding : 2px;
+
+}
+
+span svg , span img{
+  margin-right: 5px;
+}
+
+.aboutSection .author{
+  bottom : 0;
+  right : 0;
+  padding : 0 10px;
+}
+
+
+@media screen and (max-width : 992px){
+  .aboutSection{
+    align-items: center;
+  }
+  .aboutSection h1 {
+    text-align: center;
+    font-size : 2.5rem;
+    width : 600px;
+  }
+ .aboutSection .info{
+    width : 80%;
+    font-size: 1.4rem;
+  }
+  .aboutSection .author{
+    font-size: 1.6dvw;
+  }
+  .displayIconsContainer , .moreIconsContainer {
+    justify-content: space-evenly;
+  }
+
+}
+
+@media screen and (max-width : 650px){
+  .aboutSection .info{
+    width : 100%;
+
+  }
+  .aboutSection h1 {
+    font-size : 7.5dvw;
+    width : 100%;
+  }
+  .aboutSection .author{
+    font-size: 2dvw;
+    width : 20%;
+  }
+  .displayIconsContainer span , 
+  .moreIconsContainer span{
+   width: 50%;
+    justify-content: flex-start;
+  }
+  .displayIconsContainer {
+    justify-content: flex-start;
+  }
+}

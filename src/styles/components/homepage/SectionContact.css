@@ -1,0 +1,42 @@
+.contactSection{
+  display : flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+ul.contactInfo, ul.contactInfo a {
+  color : var(--cream);
+  text-decoration: none;
+  font-size: 5.5rem;
+}
+
+ul.contactInfo{
+  list-style-type: none;
+}
+
+ul.contactInfo li{
+  transition : .4s;
+  width : fit-content;
+}
+
+ul.contactInfo li:hover {
+  cursor: pointer;
+  transform : scale(1.1);
+}
+
+@media screen and (max-width : 992px){
+  ul.contactInfo, ul.contactInfo a {
+  
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width : 767px){
+  ul.contactInfo{
+    height : 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  ul.contactInfo, ul.contactInfo a {
+    font-size: 12dvw;
+  }
+}

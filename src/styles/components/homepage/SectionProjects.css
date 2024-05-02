@@ -1,0 +1,176 @@
+/* EXCLUSIVE ProjectsSection.jsx STYLING */
+
+.projectSection{
+  position: relative;
+  padding-top : 65px;
+  min-height: 800px;
+}
+
+.layoutContainer{
+  width: 100%;
+  height : 82dvh;
+  min-height : 600px;
+  display : flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box1, .box2{
+  height : 59%;
+}
+
+.box1 , .box2, .box3, .box4, .box5, .box6{
+  position : relative ;
+  display : flex;
+  transition : .3s;
+  text-decoration: none;
+}
+
+.box1{
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleName , .technologyIcons{
+  color : var(--cream);
+}
+
+.titleName {
+  position : relative;
+}
+
+.technologyIcons{
+  position: absolute;
+  right : 2%;
+  top : 1%;
+  font-weight: 500;
+  font-size: .9rem;
+}
+
+.box2{
+  width: 38%;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
+.box3{
+  justify-content: center;
+  align-items: flex-end;
+}
+.box4{
+  justify-content: center;
+  align-items: center;
+}
+.box3, .box4 , .miniContainer{
+  height : 36%;
+  width: 32%;
+}
+
+.miniContainer{
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box5, .box6{
+  height : 47%;
+}
+
+.box5{
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left : 15px;
+}
+
+.box5 .titleName{
+  width: 50%;
+}
+
+.box6{
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box1::before{
+  background-image : url('portfolio/programming.jpg');
+  filter : brightness(.6);
+}
+
+.box2::before{
+  background-image : url('portfolio/pupusasThumbnail.jpg');
+  filter : brightness(.7);
+}
+.box3::before{
+  background-image : url('portfolio/weAreTheChampions.jpg');
+  filter : brightness(.9);
+}
+.box4::before{
+  background-image : url('portfolio/chromeExtension.jpg');
+  filter : brightness(.8);
+}
+.box5::before{
+  background-image : url('portfolio/documents.jpg');
+  filter : brightness(.80);
+}
+.box6::before{
+  background-image : url('portfolio/yahoo.jpg');
+  filter : brightness(.8);
+}
+
+.box1:hover , .box2:hover , .box3:hover , 
+.box4:hover , .box5:hover , .box6:hover{
+  transform: scale(1.05);
+  cursor : pointer;
+}
+
+
+@media screen and (max-width: 992px){
+  .projectSection{
+    height : 90dvh;
+  }
+
+  .layoutContainer{
+    height : 85%;
+  }
+
+  .box1, .box2, .miniContainer{
+    width : 100%;
+  }
+
+  .box1, .box2, .box3 , .box4{
+    height : 20%;
+  }
+
+  .box3 , .box4{
+    width: 49%;
+  }
+
+  .miniContainer{
+    height : 35%;
+  }
+
+  .box2 {
+    align-items: center;
+    padding : 0;
+  }
+  .box3 .titleName , .box4 .titleName{
+    font-size:  1.4rem;
+  }
+  .box5 .titleName{
+    width : 25%;
+  }
+  .technologyIcons{
+    font-size: .75rem;
+  }
+}
+
+@media screen and (max-width : 776px){
+  .box3 .titleName , .box4 .titleName{
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
+

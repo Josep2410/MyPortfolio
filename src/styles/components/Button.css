@@ -1,0 +1,14 @@
+.BtnLink{
+  text-decoration: none;
+  text-transform: uppercase;
+  color : var(--mocha) !important;
+  background-color: var(--cream);
+  font-weight: 700;
+  padding : 10px 15px;
+  border-radius: 10px;
+}
+
+.BtnLink:hover{
+  cursor: pointer;
+  background-color: #cababa;
+}

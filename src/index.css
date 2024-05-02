@@ -1,0 +1,17 @@
+:root{
+  --cream : #FFECEC;
+  --secondaryCream : #e7e7e7;
+  --mocha : #926863;
+  --charcoal : rgb(29, 29, 29);
+}
+
+body{
+  font-size: 16.25px;
+  box-sizing: border-box;
+  user-select: none;
+  height: fit-content; 
+}
+
+#root{
+  background-color : var(--mocha);
+}

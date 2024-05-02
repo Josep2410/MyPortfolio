@@ -1,0 +1,30 @@
+
+header{
+  display : flex;
+  justify-content: flex-end;
+  padding : 20px 20px 10px;
+  position : fixed;
+  width : 100%;
+  z-index: 5;
+}
+
+nav{
+  width: 40%;
+  display : flex;
+  justify-content: space-between;
+  filter: blur(.5);
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 1.25rem;
+  color : var(--secondaryCream);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding : 0 8px;
+  transition : .6s;
+}
+
+nav a:hover{
+  transform: scale(1.4);
+}
