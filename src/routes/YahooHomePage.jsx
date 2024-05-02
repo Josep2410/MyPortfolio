@@ -37,7 +37,7 @@ export default function YahooHomePage() {
       </div>
     </section>
     <section className='imgContainer yahooHPImgContainer'>
-      <img className="img-fluid"src="/portfolio/yahooHomePage.PNG" alt="" />
+      <img className="img-fluid"src="/portfolio/yahooHomePage.PNG" alt="yahoo look-a-like" />
     </section>
   </ProjectContainer>
   )

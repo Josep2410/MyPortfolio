@@ -36,7 +36,7 @@ export default function JSDoc() {
       </div>
     </section>
     <section className='imgContainer jsDocImgContainer'>
-      <img className="img-fluid" src="/portfolio/jsDocs.PNG" alt="" />
+      <img className="img-fluid" src="/portfolio/jsDocs.PNG" alt="A single page document filled with words like a textbook" />
     </section>
   </ProjectContainer>
   )

@@ -40,7 +40,7 @@ export default function WeAreTheChampions() {
     </section>
 
     <section className='imgContainer theChampionsImgContainer'>
-      <img className="img-fluid" src="/portfolio/weAreTheChampionsImg2.PNG" alt="" />
+      <img className="img-fluid" src="/portfolio/weAreTheChampionsImg2.PNG" alt="Multiple input entries for user" />
     </section>
     
   </ProjectContainer>
