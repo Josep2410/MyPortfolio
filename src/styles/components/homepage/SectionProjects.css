@@ -94,28 +94,28 @@
 }
 
 .box1::before{
-  background-image : url('portfolio/programming.jpg');
+  background-image : url('/portfolio/programming.jpg');
   filter : brightness(.6);
 }
 
 .box2::before{
-  background-image : url('portfolio/pupusasThumbnail.jpg');
+  background-image : url('/portfolio/pupusasThumbnail.jpg');
   filter : brightness(.7);
 }
 .box3::before{
-  background-image : url('portfolio/weAreTheChampions.jpg');
+  background-image : url('/portfolio/weAreTheChampions.jpg');
   filter : brightness(.9);
 }
 .box4::before{
-  background-image : url('portfolio/chromeExtension.jpg');
+  background-image : url('/portfolio/chromeExtension.jpg');
   filter : brightness(.8);
 }
 .box5::before{
-  background-image : url('portfolio/documents.jpg');
+  background-image : url('/portfolio/documents.jpg');
   filter : brightness(.80);
 }
 .box6::before{
-  background-image : url('portfolio/yahoo.jpg');
+  background-image : url('/portfolio/yahoo.jpg');
   filter : brightness(.8);
 }
 

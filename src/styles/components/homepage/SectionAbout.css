@@ -9,7 +9,7 @@
 }
 
 .aboutSection::before{
-  background-image: url("portfolio/atWork-LG.jpg");
+  background-image: url("/portfolio/atWork-LG.jpg");
   filter: brightness(.50);
 }
 
