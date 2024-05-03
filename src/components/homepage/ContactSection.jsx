@@ -32,7 +32,7 @@ export default function ContactSection() {
         <li>
           <a  
             target="_blank" rel="noopener noreferrer" 
-            href="goodreads.com/joseph2410"
+            href="https://www.goodreads.com/user/show/116178641-joseph"
           >
             GOODREADS
           </a>
