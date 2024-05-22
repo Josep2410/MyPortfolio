@@ -52,9 +52,6 @@ function InformationalText(){
       <p>
         &ensp; This document serves a great reminder how far I've come. From only using HTML and CSS for static webpages to being able to work with design tools, like <a href="https://www.figma.com/" target="_blank">Figma.</a>, and front-end technologies such as <a href="https://react.dev/" target="_blank">React</a> and  <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>.
       </p>
-      <p className='dateCompleted'>
-        <em>Date Completed : SEPT '22</em>
-      </p>
     </>
   )
 }

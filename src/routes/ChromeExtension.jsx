@@ -52,9 +52,7 @@ function InformationalText(){
       <p >
         &ensp;A code-along project as part of <a href="https://scrimba.com/" target='_blank'>Scrimba</a>'s Javascript and API course. The main takeaway from this project was learning how to make API calls using the fetch operator. During this time I was not familiar with promises, so this project definitely helped in that regard. Every time a new tab is opened, a new image is fetched from <a href="https://unsplash.com/developers" target='_blank'>Unsplash's image API</a> and data from a <a href="https://openweathermap.org/api" target='_blank'>weather api</a>.
       </p>
-      <p className='dateCompleted'>
-        <em>Date Completed : MAY '23</em>
-      </p>
+      
     </>
   )
 }

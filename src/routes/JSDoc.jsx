@@ -51,9 +51,6 @@ function InformationalText(){
       <p>
         &ensp;This webpage isn't the prettiest and there are mistakes. However, this project serves as a great reminder we all started as a beginner once, and that time is required to further develop our skills.
       </p>
-      <p className='dateCompleted'>
-        <em>Date Completed : JAN '23</em>
-      </p>
     </>
   )
 }

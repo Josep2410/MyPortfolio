@@ -65,9 +65,6 @@ function InformationalText(){
           Disclaimer : At this time, only data from the database can be read. Creating, updating , and deleting operations are reserved only for the owner at this time.
         </em>
       </p>
-      <p className='dateCompleted'>
-        <em>Date Completed : MAR '24</em>
-      </p>
     </>
   )
 }

@@ -60,9 +60,6 @@ function InformationalText(){
         <p>
           &ensp;The end result is a functioning website that shares information <HashLink smooth to="/#about" > about myself</HashLink>, showcases some of my <HashLink smooth to="/#projects">previous projects</HashLink>, and <HashLink smooth to="/#contact">my contact info</HashLink>.
         </p>
-        <p className='dateCompleted'>
-          <em>Date Completed : MAY'24</em>
-        </p>
     </>
   )
 }
