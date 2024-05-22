@@ -5,7 +5,8 @@
 /* Heights up the four sections */
 .homeSection, .aboutSection{
   position : relative;
-  height : 100dvh;
+  min-height : 100dvh;
+  
 }
 .projectSection, .contactSection{
   height: 100dvh;
