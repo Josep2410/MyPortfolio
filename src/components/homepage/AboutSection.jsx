@@ -8,6 +8,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import figmaLogo from '../../assets/figmaLogo.svg'
+import { FaGitAlt } from "react-icons/fa";
 import "../../styles/components/homepage/SectionAbout.css"
 
 // Just rendering JSX in this file
@@ -25,69 +26,76 @@ function AboutMeText(){
     <>
       <h1 >Who I Am</h1>      
       <ul className='info'>
-       <li>Self taught web developer. I hope to have a career in web development.</li>
-       <li>I love spontaneous adventures and I enjoy reading.</li>
-       <li>  
-        Skill Set : 
-        <DisplayIcons />
-       </li>
-       <li>  
-        Dabbled in : 
-        <DisplayMoreIcons />
-       </li>
+        <li>I am online math tutor and a self taught web developer. I have been teaching kids online for over a year, while at the same time developing my skills to become a front end developer. I have dedicated hundreds of hours to learning and have completed tens of small projects. I compiled a small list of projects I am the most proud of. Check the next page to see them. 
+        </li>
+        <li>  
+          My skill set includes : 
+          <DisplayIcons />
+        </li>
+        <li>  
+          I have dabbled in : 
+          <DisplayMoreIcons />
+        </li>
+        <li>I am also a firm believer in daily exercise, a jigsaw puzzle enthusiast, and an avid reader.</li>
       </ul>
     </>
   )
 }
 
+
 function DisplayIcons(){
   return(
-    <div className='displayIconsContainer'>
-    
-      <span >
+    <ul className='displayIconsContainer'>
+      <li >
         <FaReact className='reactSVG'/> 
         React 
-      </span>
-      <span>
-        <img src={figmaLogo} alt="" />
+      </li>
+      <li>
+        <img src={figmaLogo} alt="figma logo" />
         Figma
-      </span>
-      <span>
+      </li>
+      <li>
         <IoLogoJavascript className='javascriptSVG'/>
         Javascript
-      </span>
-      <span>
+      </li>
+      <li>
        <FaHtml5 className='htmlSVG'/>
        HTML
-      </span>
-      <span>
+      </li>
+      <li>
         <FaCss3Alt className='cssSVG'/>
         CSS
-      </span>
-    </div>
+      </li>
+      <li>
+        <FaGitAlt className='gitSVG'/>
+        Git
+      </li>
+    </ul>
   )
 }
 
+
+
 function DisplayMoreIcons(){
   return(
-    <div className='moreIconsContainer'>
-       <span>
+    <ul className='moreIconsContainer'>
+      <li>
         <FaBootstrap className='bootstrapSVG'/>
         BootStrap
-      </span>
-      <span >
+      </li>
+      <li >
         <IoLogoFirebase className='firebaseSVG'/>
         Firebase
-      </span>
-      <span >
+      </li>
+      <li >
         <FaNodeJs className='nodejsSVG'/>
         NodeJS
-      </span>
-      <span >
+      </li>
+      <li >
         <BiLogoMongodb className='mongodbSVG'/>
         MongoDB
-      </span>
-    </div>
+      </li>
+    </ul>
   )
 }
 
